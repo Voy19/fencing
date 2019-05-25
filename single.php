@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php get_header('test'); ?>
 
 <?php the_post(); ?>
 <div class="single">
