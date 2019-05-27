@@ -5,6 +5,10 @@
    text-transform: uppercase;
 } */
 
+.contact_h2 {
+   padding-top: 200px;
+}
+
 .wp_osm {
    width: 100%;
    position: relative;

@@ -13,7 +13,9 @@
 </head>
 
 <body>
-   <header>
+<div class="head-test_wrap">
+
+   <header class="head-test">
 
       <a href="<?php echo home_url() ?>" class="logo"></a>
       
@@ -33,5 +35,6 @@
 
 
    </header>
+</div>
 
    <script src="main.js"></script>

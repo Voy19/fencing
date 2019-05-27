@@ -1,11 +1,6 @@
-<?php
-	/*
-	Template Name: blog
-	Template post type: page
-	*/
-?>
 
-<?php get_header('test'); ?>
+
+<?php get_header(); ?>
 
 <h2><?php wp_title("", true); ?></h2>
 

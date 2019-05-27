@@ -5,18 +5,13 @@
 	*/
 ?>
 
-<?php get_header('test'); ?>
+<?php get_header(); ?>
 <?php the_post(); ?>
-<h2><?php the_title() ?></h2>
-<div class='content'><?php echo do_shortcode( '[wp-osm id=2]' ); ?>
+<!-- <h2><?php the_title() ?></h2> -->
 
-	<div class="contact">
-		<?php get_sidebar('contact'); ?>
-	</div>
-</div>
 <?php the_content() ?>
 
-<h2>Our coaches</h2>
+<h2 class="contact_h2" >Our coaches</h2>
 <div class="coaches">
 	<div class="coach_1">
 
@@ -73,6 +68,12 @@
 </div>
 		</div>
 </div>
+</div>
+<div class='content'><?php echo do_shortcode( '[wp-osm id=2]' ); ?>
+
+	<div class="contact">
+		<?php get_sidebar('contact'); ?>
+	</div>
 </div>
 
 <!-- <?php get_sidebar(); ?> -->

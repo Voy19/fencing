@@ -13,9 +13,10 @@
 </head>
 
 <body>
+
 <div class="head_wrap">
 
-   <header class="first_header">
+   <header>
 
       <a href="<?php echo home_url() ?>" class="logo"></a>
       

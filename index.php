@@ -1,13 +1,11 @@
 <?php
 	/*
-	Template Name: blog
+	Template Name: Iblog
 	Template post type: page
 	*/
 ?>
 
-<?php get_header('test'); ?>
-
-<h2><?php wp_title("", true); ?></h2>
+<?php get_header(); ?>
 
 <main class="news">
 		<?php if(have_posts()): 
