@@ -7,6 +7,7 @@
 
 <?php get_header(); ?>
 
+<div class="wrap">
 <main class="news">
 		<?php if(have_posts()): 
 				while(have_posts()): the_post(); ?>
@@ -27,7 +28,10 @@
 		<?php else: ?>
 			Записей нет!
 		<?php endif; ?>
-	<?php the_posts_pagination() ?>
 </main>
+	<?php if (function_exists('wp_corenavi')) wp_corenavi(); ?>
+
+
+</div>
 <!-- <?php get_sidebar(); ?> -->
 <?php get_footer(); ?>
