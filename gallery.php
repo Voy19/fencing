@@ -9,7 +9,7 @@
 
 <main class="gallery">
 <?php 
-echo do_shortcode('[foogallery-album id="196"]'); 
+echo do_shortcode('[foogallery-album id="92"]'); 
 ?>
 </main>
 

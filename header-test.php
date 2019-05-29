@@ -19,7 +19,7 @@
    <header class="head-test">
 
       <a href="<?php echo home_url() ?>" class="logo">
-      <img src="../wp-content/themes/my_theme/brave.svg"" alt="">
+      <img src="<?php echo get_template_directory_uri(); ?> /brave.svg">
       <?php //the_custom_logo(); ?>
       </a>
       

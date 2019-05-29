@@ -20,7 +20,7 @@
    <header>
 
       <a href="<?php echo home_url() ?>" class="logo">
-      <img src="<?php get_parent_theme_file_uri('/brave.svg');?>" alt="">
+      <img src="<?php echo get_template_directory_uri(); ?>/brave.svg">
 
    </a>
       

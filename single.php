@@ -12,7 +12,7 @@
 	 <div class="text">
 		 <h3><?php the_title() ?></h3>
 		 <div class="time">
-			<img src='../wp-content/themes/my_theme/assets/img/calendar-with-a-clock-time-tools_icon-icons.com_56831.png' alt=""> 
+			<img src='<?php echo get_template_directory_uri(); ?> /assets/img/calendar-with-a-clock-time-tools_icon-icons.com_56831.png' alt=""> 
 		 	<?php the_date('F j, Y'); ?></div>
 				<div class='single_content'><?php the_content() ?></div>
 

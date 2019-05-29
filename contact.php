@@ -28,13 +28,13 @@
 			<hr />
 				<div class="row">
 					<div class="number">
-						<img src="../wp-content/themes/my_theme/assets/img/phone_14179.png" alt="" />
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/phone_14179.png" alt="" />
 						<p><?php the_field('phone-coach_1'); ?></p>
 	
 					</div>
 					<div class="email">
 	
-						<img src="../wp-content/themes/my_theme/assets/img/Email_30017.png" alt="" />
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/Email_30017.png" alt="" />
 						<p><?php the_field('email-coach_1'); ?></p>
 	
 					</div>
@@ -56,12 +56,12 @@
 		<hr />
 				<div class="row">
 			<div class="number">
-				<img src="../wp-content/themes/my_theme/assets/img/phone_14179.png" alt="" />
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/phone_14179.png" alt="" />
 				<p><?php the_field('phone-coach_2'); ?></p>
 
 			</div>
 			<div class="email">
-				<img src="../wp-content/themes/my_theme/assets/img/Email_30017.png" alt="" />
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/Email_30017.png" alt="" />
 				<p><?php the_field('email-coach_2'); ?></p>
 
 			</div>

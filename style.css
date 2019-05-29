@@ -35,6 +35,7 @@ header {
 	justify-content: space-between;
 	max-width: 1400px;
 	margin: 10px auto 10px;
+	/* z-index: 9999; */
 }
 
 header .logo img {

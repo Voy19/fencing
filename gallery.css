@@ -2,7 +2,7 @@
    min-height: 100vh;
 }
 
-#foogallery-album-196 {
+#foogallery-album-92 {
    margin-top: 140px;
    margin-bottom: 30px;
 }
@@ -12,11 +12,46 @@
    margin-bottom: 20px;
 }
 
+.foogallery-stack-album .topbar h3 {
+   /* text-align: left !important; */
+   display: none !important;
+}
+
+.topbar {
+   box-shadow: 0 0 0 0 !important;
+}
+
+.topbar h2 {
+   display: none !important;
+}
+
+.tp-grid {
+   margin-top: 50px;
+}
+
+/* .tp-grid li {
+   z-index: 9888 !important;
+} */
+
+.foogallery-stack-album .back {
+   width: 45px !important;
+   height: 45px !important;
+   margin-bottom: 50px !important;
+   font-size: 25px;
+}
+
+.tp-info,
+.tp-title {
+   top: auto !important;
+   bottom: 0;
+}
 
 .fbx-inner {
    position: absolute;
-   /* width: 400px !important;
-   height: 400px !important;
+   width: 800px !important;
+   height: 500px !important;
    top: 50%;
-   left: 50%; */
+   left: 50%;
+   transform: translate(-50%, -50%);
+   margin: 0 !important;
 }

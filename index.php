@@ -17,7 +17,7 @@
 							<?php the_post_thumbnail('large') ?>
 							<div class="item_hover">
 								<div class="text_hover">
-									<img class='hover-img' src="../wp-content/themes/my_theme/assets/img/searchmagnifierinterfacesymbol1_79893.svg" alt="">
+									<img class='hover-img' src="<?php echo get_template_directory_uri(); ?>/assets/img/searchmagnifierinterfacesymbol1_79893.svg" alt="">
 									<p>view more</p>
 								</div>
 							</div>
