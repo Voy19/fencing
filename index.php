@@ -8,7 +8,8 @@
 <?php get_header(); ?>
 
 <div class="wrap">
-<main class="news">
+		<h2 class="blog_h2">BLOG</h2>
+	<main class="news">
 		<?php if(have_posts()): 
 				while(have_posts()): the_post(); ?>
 					<article class="item">
@@ -19,10 +20,10 @@
 									<img class='hover-img' src="../wp-content/themes/my_theme/assets/img/searchmagnifierinterfacesymbol1_79893.svg" alt="">
 									<p>view more</p>
 								</div>
-                  </div>
+							</div>
 						</a>
-						<h2><?php the_title() ?></h2>
-						<span><?php echo CFS()->get('description') ?></span>
+						<h3><?php the_title() ?></h3>
+						<span><?php the_field('short'); ?></span>
 					</article>
 				<?php endwhile; ?>
 		<?php else: ?>

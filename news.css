@@ -1,19 +1,58 @@
+.blog_h2 {
+   margin-top: 150px;
+   text-align: center;
+}
+
+.news h3 {
+   margin-top: 20px;
+   text-align: center;
+   text-transform: uppercase;
+   font-size: 20px;
+   font-weight: 700;
+   letter-spacing: 2px;
+}
+
+.news h3:after {
+   content: '';
+   display: block;
+   width: 100px;
+   height: 2px;
+   margin: 10px auto 0;
+   background-color: #f00;
+
+}
+
+.news span {
+   margin: 20px 0;
+   text-align: center;
+   font-size: 16px;
+   padding: 0 15px;
+}
+
 .news {
    display: flex;
    justify-content: flex-start;
    flex-wrap: wrap;
    width: 100%;
-   /* min-height: 100vh; */
-   padding-top: 200px;
+
+   min-height: calc(100vh - 328px);
+   padding-top: 50px;
 }
 
 main .item {
+   box-sizing: border-box;
    display: flex;
    flex-direction: column;
    align-items: center;
    width: 30.3%;
-   margin-bottom: 10px;
-   margin: 0 1.5%;
+   height: 425px;
+   margin-bottom: 30px;
+   margin: 0 1.5% 30px;
+
+   /* border: 1px solid #000; */
+   border-radius: 25px;
+   box-shadow: 1px 1px 3px 0px #6f1313;
+
 }
 
 main .item a {
@@ -21,18 +60,19 @@ main .item a {
    display: block;
    width: 100%;
    height: 300px;
-   border-radius: 25px;
+   border-radius: 25px 25px 0 0;
 }
 
 main .item a:hover .item_hover {
-   opacity: .5;
-   transition: .4s ease;
+   opacity: 0.7;
+   transition: opacity 0.4s ease;
+   border-radius: 25px 25px 0 0;
 }
 
 main .item img {
    width: 100%;
    height: 100%;
-   border-radius: 25px;
+   border-radius: 25px 25px 0 0;
 }
 
 .item_hover {
@@ -40,28 +80,30 @@ main .item img {
    display: flex;
    align-items: center;
    justify-content: center;
-   background-color: #fff;
+   background-color: #1f1d1d;
    opacity: 0;
-   transition: .4s ease;
+   transition: opacity .4s ease;
    width: 100%;
    height: 100%;
    top: 50%;
    left: 0;
+   border-radius: 25px 25px 0 0;
    text-align: center;
    transform: translateY(-50%);
 }
 
 .item_hover .hover-img {
-   height: 30px;
-   width: 30px;
+   height: 35px;
+   width: 35px;
 }
 
 .item_hover p {
    margin-top: 17px;
-   font-size: 15px;
-   color: #000;
+   font-size: 20px;
+   color: #fff;
    font-weight: 500;
    text-transform: uppercase;
+   letter-spacing: 2px;
 }
 
 .item h2 {
@@ -77,13 +119,20 @@ main .item img {
    justify-content: center;
 }
 
+
 .page-numbers {
+   box-sizing: border-box;
    display: flex;
    padding: 10px 20px;
    text-decoration: none;
-   border: 1px solid rgb(196, 121, 22);
+   border: 1px solid #884d4d;
    color: #fff;
    background-color: #000;
+   transition: opacity all 0.4s;
+}
+
+.navigation a:hover {
+   opacity: 0.7;
 }
 
 .current {

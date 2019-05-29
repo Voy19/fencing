@@ -12,6 +12,12 @@
       <h1>Lorem, ipsum dolor.</h1>
 	</div>
 </div>
-<div class="test"></div>
+<div class="content_wrap">
+	<div class="content">
+	<p>
+		
+	</p>
+	</div>
+</div>
 
 <?php get_footer(); ?>

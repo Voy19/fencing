@@ -1,5 +1,6 @@
 <?php
 
+
 	include_once(__DIR__ . '/inc/test-recent-posts.php');
 
 	add_filter('show_admin_bar', '__return_false');

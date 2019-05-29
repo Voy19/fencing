@@ -72,9 +72,17 @@
 <div class='content'><?php echo do_shortcode( '[wp-osm id=2]' ); ?>
 
 	<div class="contact">
-		<?php get_sidebar('contact'); ?>
+		<h3>Where find us</h3>
+	<p><span>Location: </span>Thomas Presbyterian Church</p>
+	<p>1068 Linden Rd,</p>
+	<p>Eighty Four, PA 15330</p>
+	<p> (10 min drive from Peters Township High School)</p>
+	<p><span>Number: </span><?php the_field('number_phone'); ?></p>
+	<p><span>Email: </span><?php the_field('email'); ?></p>	
+
 	</div>
 </div>
 
 <!-- <?php get_sidebar(); ?> -->
 <?php get_footer(); ?>
+
