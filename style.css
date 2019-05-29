@@ -23,12 +23,13 @@ header {
 
 .head_wrap {
 	position: fixed;
+	top: 0;
 	width: 100%;
 	padding: 10px 0 10px 0;
 	background-color: #fff;
 	border-bottom: 1px solid #000;
 	transition: all 0.4s;
-	z-index: 2;
+	z-index: 1000;
 }
 
 .head-test_wrap {

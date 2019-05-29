@@ -44,6 +44,7 @@
 		wp_enqueue_style('contact-main', get_template_directory_uri() . '/contact.css');
 		wp_enqueue_style('news-main', get_template_directory_uri() . '/news.css');
 		wp_enqueue_style('single-main', get_template_directory_uri() . '/single.css');
+		wp_enqueue_style('gallery-main', get_template_directory_uri() . '/gallery.css');
 
 		wp_enqueue_script('test-script-main', get_template_directory_uri() . '/main.js');
 	}
