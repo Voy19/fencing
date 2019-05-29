@@ -1,0 +1,22 @@
+.gallery {
+   min-height: 100vh;
+}
+
+#foogallery-album-196 {
+   margin-top: 140px;
+   margin-bottom: 30px;
+}
+
+.foogallery-album-header {
+   margin-top: 140px;
+   margin-bottom: 20px;
+}
+
+
+.fbx-inner {
+   position: absolute;
+   /* width: 400px !important;
+   height: 400px !important;
+   top: 50%;
+   left: 50%; */
+}
