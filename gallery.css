@@ -1,57 +1,57 @@
 .gallery {
-   min-height: 100vh;
+	min-height: 100vh;
 }
 
-#foogallery-album-92 {
-   margin-top: 140px;
-   margin-bottom: 30px;
+#foogallery-album-196 {
+	margin-top: 140px;
+	margin-bottom: 30px;
 }
 
 .foogallery-album-header {
-   margin-top: 140px;
-   margin-bottom: 20px;
+	margin-top: 140px;
+	margin-bottom: 20px;
 }
 
 .foogallery-stack-album .topbar h3 {
-   /* text-align: left !important; */
-   display: none !important;
+	/* text-align: left !important; */
+	display: none !important;
 }
 
 .topbar {
-   box-shadow: 0 0 0 0 !important;
+	box-shadow: 0 0 0 0 !important;
 }
 
 .topbar h2 {
-   display: none !important;
+	display: none !important;
 }
 
 .tp-grid {
-   margin-top: 50px;
+	margin-top: 50px;
 }
 
-/* .tp-grid li {
-   z-index: 9888 !important;
-} */
+.tp-grid ul > li[style] {
+	z-index: 1 !important;
+}
 
 .foogallery-stack-album .back {
-   width: 45px !important;
-   height: 45px !important;
-   margin-bottom: 50px !important;
-   font-size: 25px;
+	width: 45px !important;
+	height: 45px !important;
+	margin-bottom: 50px !important;
+	font-size: 25px;
 }
 
 .tp-info,
 .tp-title {
-   top: auto !important;
-   bottom: 0;
+	top: auto !important;
+	bottom: 0;
 }
 
 .fbx-inner {
-   position: absolute;
-   width: 800px !important;
-   height: 500px !important;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   margin: 0 !important;
+	position: absolute;
+	width: 800px !important;
+	height: 500px !important;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0 !important;
 }

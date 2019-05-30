@@ -44,6 +44,11 @@
    text-align: justify;
 }
 
+.single_content h2::after,
+.single_content h3::after {
+   display: none;
+}
+
 .time {
    display: flex;
    align-items: center;

@@ -30,12 +30,11 @@
    position: absolute;
    top: 0;
    right: 0;
-   width: 30%;
+   min-width: 500px;
    height: 100%;
    background-color: rgba(0, 0, 0, 0.808);
    z-index: 1;
 }
-
 
 .coaches {
    display: flex;
